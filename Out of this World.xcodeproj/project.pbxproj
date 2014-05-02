@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519BA1011910F9E8008E5674 /* OWSpaceImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BA1001910F9E8008E5674 /* OWSpaceImageViewController.m */; };
 		51AB513F190E08A20008B541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB513E190E08A20008B541 /* Foundation.framework */; };
 		51AB5141190E08A20008B541 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB5140190E08A20008B541 /* CoreGraphics.framework */; };
 		51AB5143190E08A20008B541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB5142190E08A20008B541 /* UIKit.framework */; };
@@ -14,13 +15,25 @@
 		51AB514B190E08A20008B541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB514A190E08A20008B541 /* main.m */; };
 		51AB514F190E08A20008B541 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB514E190E08A20008B541 /* OWAppDelegate.m */; };
 		51AB5152190E08A20008B541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AB5150190E08A20008B541 /* Main.storyboard */; };
-		51AB5155190E08A20008B541 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB5154190E08A20008B541 /* OWViewController.m */; };
 		51AB5157190E08A20008B541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AB5156190E08A20008B541 /* Images.xcassets */; };
 		51AB515E190E08A20008B541 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB515D190E08A20008B541 /* XCTest.framework */; };
 		51AB515F190E08A20008B541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB513E190E08A20008B541 /* Foundation.framework */; };
 		51AB5160190E08A20008B541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB5142190E08A20008B541 /* UIKit.framework */; };
 		51AB5168190E08A20008B541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51AB5166190E08A20008B541 /* InfoPlist.strings */; };
 		51AB516A190E08A20008B541 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB5169190E08A20008B541 /* Out_of_this_WorldTests.m */; };
+		51AB5175190E092D0008B541 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB5174190E092D0008B541 /* OWOuterSpaceTableViewController.m */; };
+		51BB0552190EB6F300A0FDB9 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BB0551190EB6F300A0FDB9 /* AstronomicalData.m */; };
+		51BB055D190EC03F00A0FDB9 /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0553190EC03F00A0FDB9 /* Earth.jpg */; };
+		51BB055E190EC03F00A0FDB9 /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0554190EC03F00A0FDB9 /* EinsteinRing.jpg */; };
+		51BB055F190EC03F00A0FDB9 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0555190EC03F00A0FDB9 /* Jupiter.jpg */; };
+		51BB0560190EC03F00A0FDB9 /* Mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0556190EC03F00A0FDB9 /* Mars.jpg */; };
+		51BB0561190EC03F00A0FDB9 /* Mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0557190EC03F00A0FDB9 /* Mercury.jpg */; };
+		51BB0562190EC03F00A0FDB9 /* Neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0558190EC03F00A0FDB9 /* Neptune.jpg */; };
+		51BB0563190EC03F00A0FDB9 /* Orion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB0559190EC03F00A0FDB9 /* Orion.jpg */; };
+		51BB0564190EC03F00A0FDB9 /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB055A190EC03F00A0FDB9 /* Saturn.jpg */; };
+		51BB0565190EC03F00A0FDB9 /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB055B190EC03F00A0FDB9 /* Uranus.jpg */; };
+		51BB0566190EC03F00A0FDB9 /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BB055C190EC03F00A0FDB9 /* Venus.jpg */; };
+		51BB0569190EC14A00A0FDB9 /* OWSpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BB0568190EC14A00A0FDB9 /* OWSpaceObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		519BA0FF1910F9E8008E5674 /* OWSpaceImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpaceImageViewController.h; sourceTree = "<group>"; };
+		519BA1001910F9E8008E5674 /* OWSpaceImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpaceImageViewController.m; sourceTree = "<group>"; };
 		51AB513B190E08A20008B541 /* Out of this World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of this World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AB513E190E08A20008B541 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51AB5140190E08A20008B541 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +60,28 @@
 		51AB514D190E08A20008B541 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		51AB514E190E08A20008B541 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		51AB5151190E08A20008B541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51AB5153190E08A20008B541 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		51AB5154190E08A20008B541 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		51AB5156190E08A20008B541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		51AB515C190E08A20008B541 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AB515D190E08A20008B541 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		51AB5165190E08A20008B541 /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
 		51AB5167190E08A20008B541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51AB5169190E08A20008B541 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		51AB5173190E092D0008B541 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		51AB5174190E092D0008B541 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
+		51BB0550190EB6F300A0FDB9 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		51BB0551190EB6F300A0FDB9 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
+		51BB0553190EC03F00A0FDB9 /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		51BB0554190EC03F00A0FDB9 /* EinsteinRing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EinsteinRing.jpg; sourceTree = "<group>"; };
+		51BB0555190EC03F00A0FDB9 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		51BB0556190EC03F00A0FDB9 /* Mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars.jpg; sourceTree = "<group>"; };
+		51BB0557190EC03F00A0FDB9 /* Mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury.jpg; sourceTree = "<group>"; };
+		51BB0558190EC03F00A0FDB9 /* Neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neptune.jpg; sourceTree = "<group>"; };
+		51BB0559190EC03F00A0FDB9 /* Orion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orion.jpg; sourceTree = "<group>"; };
+		51BB055A190EC03F00A0FDB9 /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
+		51BB055B190EC03F00A0FDB9 /* Uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uranus.jpg; sourceTree = "<group>"; };
+		51BB055C190EC03F00A0FDB9 /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
+		51BB0567190EC14A00A0FDB9 /* OWSpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OWSpaceObject.h; path = ../OWSpaceObject.h; sourceTree = "<group>"; };
+		51BB0568190EC14A00A0FDB9 /* OWSpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OWSpaceObject.m; path = ../OWSpaceObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +144,12 @@
 				51AB514D190E08A20008B541 /* OWAppDelegate.h */,
 				51AB514E190E08A20008B541 /* OWAppDelegate.m */,
 				51AB5150190E08A20008B541 /* Main.storyboard */,
-				51AB5153190E08A20008B541 /* OWViewController.h */,
-				51AB5154190E08A20008B541 /* OWViewController.m */,
+				519BA0FF1910F9E8008E5674 /* OWSpaceImageViewController.h */,
+				519BA1001910F9E8008E5674 /* OWSpaceImageViewController.m */,
+				51AB5173190E092D0008B541 /* OWOuterSpaceTableViewController.h */,
+				51AB5174190E092D0008B541 /* OWOuterSpaceTableViewController.m */,
+				51BB0567190EC14A00A0FDB9 /* OWSpaceObject.h */,
+				51BB0568190EC14A00A0FDB9 /* OWSpaceObject.m */,
 				51AB5156190E08A20008B541 /* Images.xcassets */,
 				51AB5145190E08A20008B541 /* Supporting Files */,
 			);
@@ -126,6 +159,18 @@
 		51AB5145190E08A20008B541 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51BB0553190EC03F00A0FDB9 /* Earth.jpg */,
+				51BB0554190EC03F00A0FDB9 /* EinsteinRing.jpg */,
+				51BB0555190EC03F00A0FDB9 /* Jupiter.jpg */,
+				51BB0556190EC03F00A0FDB9 /* Mars.jpg */,
+				51BB0557190EC03F00A0FDB9 /* Mercury.jpg */,
+				51BB0558190EC03F00A0FDB9 /* Neptune.jpg */,
+				51BB0559190EC03F00A0FDB9 /* Orion.jpg */,
+				51BB055A190EC03F00A0FDB9 /* Saturn.jpg */,
+				51BB055B190EC03F00A0FDB9 /* Uranus.jpg */,
+				51BB055C190EC03F00A0FDB9 /* Venus.jpg */,
+				51BB0550190EB6F300A0FDB9 /* AstronomicalData.h */,
+				51BB0551190EB6F300A0FDB9 /* AstronomicalData.m */,
 				51AB5146190E08A20008B541 /* Out of this World-Info.plist */,
 				51AB5147190E08A20008B541 /* InfoPlist.strings */,
 				51AB514A190E08A20008B541 /* main.m */,
@@ -229,9 +274,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BB055D190EC03F00A0FDB9 /* Earth.jpg in Resources */,
+				51BB0566190EC03F00A0FDB9 /* Venus.jpg in Resources */,
+				51BB0561190EC03F00A0FDB9 /* Mercury.jpg in Resources */,
+				51BB0564190EC03F00A0FDB9 /* Saturn.jpg in Resources */,
+				51BB0565190EC03F00A0FDB9 /* Uranus.jpg in Resources */,
 				51AB5157190E08A20008B541 /* Images.xcassets in Resources */,
+				51BB0562190EC03F00A0FDB9 /* Neptune.jpg in Resources */,
+				51BB0560190EC03F00A0FDB9 /* Mars.jpg in Resources */,
 				51AB5149190E08A20008B541 /* InfoPlist.strings in Resources */,
 				51AB5152190E08A20008B541 /* Main.storyboard in Resources */,
+				51BB055E190EC03F00A0FDB9 /* EinsteinRing.jpg in Resources */,
+				51BB055F190EC03F00A0FDB9 /* Jupiter.jpg in Resources */,
+				51BB0563190EC03F00A0FDB9 /* Orion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AB5175190E092D0008B541 /* OWOuterSpaceTableViewController.m in Sources */,
+				51BB0569190EC14A00A0FDB9 /* OWSpaceObject.m in Sources */,
 				51AB514F190E08A20008B541 /* OWAppDelegate.m in Sources */,
-				51AB5155190E08A20008B541 /* OWViewController.m in Sources */,
 				51AB514B190E08A20008B541 /* main.m in Sources */,
+				51BB0552190EB6F300A0FDB9 /* AstronomicalData.m in Sources */,
+				519BA1011910F9E8008E5674 /* OWSpaceImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +515,7 @@
 				51AB516F190E08A20008B541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51AB5170190E08A20008B541 /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +524,7 @@
 				51AB5172190E08A20008B541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
