@@ -13,6 +13,6 @@
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) UIImageView *imageView;
-@property (strong, nonatomic) OWSpaceObject *spaceObject;
+@property (strong, nonatomic) OWSpaceObject *spaceObject; // Passing Data
 
 @end

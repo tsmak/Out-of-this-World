@@ -10,6 +10,7 @@
 #import "AstronomicalData.h"
 #import "OWSpaceObject.h"
 #import "OWSpaceImageViewController.h"
+#import "OWSpaceDataViewController.h"
 
 @interface OWOuterSpaceTableViewController ()
 
@@ -87,6 +88,7 @@
      */
 }
 
+// Passing Data
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // NSLog(@"%@", sender);
@@ -98,6 +100,27 @@
             NSIndexPath *path = [self.tableView indexPathForCell:sender];
             OWSpaceObject *selectedObject = self.planets [path.row];
             nextViewController.spaceObject = selectedObject;
+        }
+    }
+    
+    // For Space Data
+    if ([sender isKindOfClass:[NSIndexPath class]]) {
+        if ([segue.destinationViewController isKindOfClass:[OWSpaceImageViewController class]]) {
+            OWSpaceImageViewController *nextViewController = segue.destinationViewController;
+            NSIndexPath *path = [self.tableView indexPathForCell:sender];
+            OWSpaceObject *selectedObject = self.planets[path.row];
+            nextViewController.spaceObject = selectedObject;
+        }
+    }
+    if ([sender isKindOfClass:[NSIndexPath class]])
+    {
+        if([segue.destinationViewController isKindOfClass:[OWSpaceDataViewController class]])
+        {
+            OWSpaceDataViewController *targetViewController = segue.destinationViewController;
+            NSIndexPath *path = sender;
+            OWSpaceObject *selectedObject = self.planets[path.row];
+            targetViewController.spaceObject = selectedObject;
+            
         }
     }
 }
@@ -166,6 +189,15 @@
     
     return cell;
 }
+
+#pragma marks UITableView Delegate
+-(void) tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    // NSLog(@"accessory button is working properly %i", indexPath.row); // Check the accessory button
+    [self performSegueWithIdentifier:@"push to space data" sender:indexPath];
+    
+}
+
 
 /*
 // Override to support conditional editing of the table view.
